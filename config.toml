@@ -12,7 +12,7 @@
 # For developpers, if you modify this theme, put your images in `source/images` folder and
 # use grunt task `build` to synchronize assets
 
-baseurl = "http://libmb.github.io"
+baseurl = "https://libmb.github.io"
 languageCode = "en-us"
 title = "Shelters House"
 theme = "hugo-tranquilpeak-theme"
