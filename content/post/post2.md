@@ -1,8 +1,16 @@
-+++
-date = "2016-12-31T17:49:56-07:00"
-title = "post2"
-draft = true
+---
+title: "Cover image showcase"
+thumbnailImagePosition: left
+thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city-750.jpg
+coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
+metaAlignment: center
+coverMeta: out
+date: 2016-12-31
+categories:
+- tranquilpeak
+- features
+tags:
+- cover image
+---
 
-+++
-
-post 2 post 2
+Post 2 post 2 test
