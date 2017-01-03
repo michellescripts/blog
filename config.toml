@@ -1,6 +1,6 @@
 name = "Robust"
 license = "MIT"
-baseurl = "https://libmb.github.io"
+baseurl = "https://libmb.github.io/"
 languageCode = "en-us"
 title = "Shelters House"
 theme = "hugo_theme_robust"
