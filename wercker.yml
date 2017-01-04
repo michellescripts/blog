@@ -18,7 +18,7 @@ build:
         code: |
           git config user.email "caker25@gmail.com"
           git config user.name "Wercker Build"
-          MESSAGE="regenerate for commit https://$WERCKER_GIT_DOMAIN/$WERCKER_GIT_OWNER/commit/$WERCKER_GIT_COMMIT"
+          MESSAGE="regenerate for commit https://$WERCKER_GIT_DOMAIN/$WERCKER_GIT_OWNER/$WERCKER_GIT_REPOSITORY/commit/$WERCKER_GIT_COMMIT"
           git add -A
           git commit -m "$MESSAGE"
           git push
