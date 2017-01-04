@@ -20,5 +20,5 @@ build:
           git config user.name "Wercker Build"
           MESSAGE="regenerate for commit https://$WERCKER_GIT_DOMAIN/$WERCKER_GIT_OWNER/commit/$WERCKER_GIT_COMMIT"
           git add -A
-          git commit -m $MESSAGE
+          git commit -m "$MESSAGE"
           git push
