@@ -2,7 +2,7 @@ name = "Robust"
 license = "MIT"
 baseurl = "https://libmb.github.io/"
 languageCode = "en-us"
-title = "Finding Shelter"
+title = "Shelter's House"
 theme = "hugo_theme_robust"
 canonifyurls = true
 
