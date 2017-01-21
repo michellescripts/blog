@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: inherit;
   color: #000;
-  background-color: #c8c8c8;
+  background-color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -145,7 +145,17 @@ article.li {
 }
 
 article.li .detail {
+  position: absolute;
+  top: -5px;
+  left: 15px;
   padding: 1rem;
+  display: block;
+  z-index: 1;
+  white-space: nowrap;
+  padding: 3px 7px;
+  color: #fff;
+  background-color: #333;
+  border-bottom: 2px solid #000;
 }
 
 article.li a {
@@ -162,16 +172,6 @@ article.li .image {
 }
 
 article.li time {
-  position: absolute;
-  top: -5px;
-  left: 15px;
-  display: block;
-  z-index: 1;
-  white-space: nowrap;
-  padding: 3px 7px;
-  color: #fff;
-  background-color: #333;
-  border-bottom: 2px solid #000;
   font-size: .7rem;
   line-height: 1rem;
 }
@@ -279,7 +279,7 @@ article.single .image {
 }
 
 article.single .article-body {
-  max-width: 650px;
+  max-width: 90%;
   margin: 0 auto;
   padding: 0 1rem;
 }
