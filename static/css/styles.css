@@ -91,7 +91,7 @@ header.site .title img {
 }
 
 footer.site {
-  padding: 3rem 0;
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -99,6 +99,11 @@ footer.site p {
   font-size: .8rem;
   margin-bottom: .5rem;
   color: #000000;
+}
+
+footer.site img {
+  height: 80px;
+  width: auto;
 }
 
 @media (max-width: 768px) {
