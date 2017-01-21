@@ -90,6 +90,16 @@ header.site .title img {
   height: auto;
 }
 
+div.social {
+  margin-bottom: 50px;
+}
+
+.social i {
+  color: #bcb5ba;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 footer.site {
   padding: 1rem 0;
   text-align: center;
@@ -159,8 +169,9 @@ article.li .detail {
   white-space: nowrap;
   padding: 3px 7px;
   color: #fff;
-  background-color: #333;
-  border-bottom: 2px solid #000;
+  background-color: 54243c;
+  border-bottom: 2px solid #bc9fb3;
+  border-right: 2px solid #bc9fb3;
 }
 
 article.li a {
