@@ -2,6 +2,26 @@ html {
   font-size: 16px;
 }
 
+nav {
+  background-color: #FFF;
+  margin-bottom: 2rem;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+  display: inline;
+}
+
+nav ul {
+  display: inline;
+  padding-left: 0;
+}
+
+nav i {
+  color: #bcb5ba;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -70,9 +90,8 @@ h4 { font-size: 1rem; line-height: 1rem; }
 h5 { font-size: 1rem; line-height: 1rem; }
 
 header.site {
-  // padding: .5rem 0;
   text-align: center;
-  background-color: #fafafa;
+  background-color: #fff;
   margin-bottom: .5rem;
 }
 
@@ -88,16 +107,8 @@ header.site .title a {
 header.site .title img {
   max-width: 50%;
   height: auto;
-}
-
-div.social {
-  margin-bottom: 50px;
-}
-
-.social i {
-  color: #bcb5ba;
-  padding-left: 1em;
-  padding-right: 1em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 footer.site {
@@ -170,8 +181,8 @@ article.li .detail {
   padding: 3px 7px;
   color: #fff;
   background-color: 54243c;
-  border-bottom: 2px solid #bc9fb3;
-  border-right: 2px solid #bc9fb3;
+  border-bottom: 2px solid #bcb5ba;
+  border-right: 2px solid #bcb5ba;
 }
 
 article.li a {
