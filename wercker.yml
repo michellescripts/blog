@@ -22,3 +22,7 @@ build:
           git add -A
           git commit --allow-empty -m "$MESSAGE"
           git push
+    - script:
+        name: touch artifact file
+        code: |
+          touch $WERCKER_OUTPUT_DIR/$WERCKER_MAIN_PIPELINE_STARTED
