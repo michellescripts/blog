@@ -4,17 +4,17 @@ build:
 
   steps:
     - script:
-        name: clone libmb.github.io
+        name: clone mihshhehl.github.io
         code: |
-          git clone https://$GIT_TOKEN@github.com/libmb/libmb.github.io
+          git clone https://$GIT_TOKEN@github.com/mihshhehl/mihshhehl.github.io
     - script:
         name: run hugo
         code: |
-          rm -rf libmb.github.io/*
-          hugo -d libmb.github.io -D
+          rm -rf mihshhehl.github.io/*
+          hugo -d mihshhehl.github.io -D
     - script:
         name: push updated site
-        cwd: libmb.github.io
+        cwd: mihshhehl.github.io
         code: |
           git config user.email "caker25@gmail.com"
           git config user.name "Wercker Build"
