@@ -11,7 +11,7 @@ build:
         name: run hugo
         code: |
           rm -rf mihshhehl.github.io/*
-          hugo -d mihshhehl.github.io -D
+          hugo -d mihshhehl.github.io
     - script:
         name: push updated site
         cwd: mihshhehl.github.io
