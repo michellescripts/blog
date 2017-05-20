@@ -10,8 +10,10 @@ build:
     - script:
         name: run hugo
         code: |
+          CNAME=$(cat mihshhehl.github.io/CNAME)
           rm -rf mihshhehl.github.io/*
           hugo -d mihshhehl.github.io
+          echo $CNAME > mihshhehl.github.io/CNAME
     - script:
         name: push updated site
         cwd: mihshhehl.github.io
