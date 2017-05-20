@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://blog.mihshhehl.com/"
+baseurl = "http://blog.mihshhehl.com/"
 themesDir = "./themes"
 languageCode = "en-us"
 title = "Shelter's House"
