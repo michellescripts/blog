@@ -12,7 +12,7 @@ disqusShortname = ""
 [params]
 	name = "Michelle Bergquist"
 	description = "Librarian gone Developer in Denver CO!"
-	bio = "Blogger & Programmer"
+	bio = "Librarian -> Developer"
 	# Enter optionally your twitter account
 	twitter = "mihshhehl"
 	enableRSS = true
